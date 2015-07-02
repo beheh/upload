@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>upload/download</ShortName>
+    <Description>upload/download</Description>
+    <Tags>upload download beheh B_E</Tags>
+    <Image height="64" width="64" type="image/vnd.microsoft.icon">http://upload.beheh.de/favicon.ico</Image>
+    <Url type="application/rss+xml" template="http://upload.beheh.de/{searchTerms}"/>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

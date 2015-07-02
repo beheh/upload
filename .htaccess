@@ -1,0 +1,7 @@
+AddDefaultCharset utf-8
+Options -Indexes
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([A-z]{6})$ ./index.php?token=$1
+RewriteRule ^f/([A-z]{6})$ ./download.php?token=$1

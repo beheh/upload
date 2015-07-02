@@ -1,0 +1,153 @@
+body {
+    font-size: 1em;
+    background-color: #EEE;
+    margin: 0;
+    padding: 0px 20px;
+    font-family: Georgia, sans-serif;
+}
+
+*::selection {
+    background:#333;
+    color:#fff;
+}
+
+*::-moz-selection {
+    background:#333;
+    color:#fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#download_wait {
+    color: #777;
+}
+
+#download_notify {
+    margin-left: 5px;
+}
+
+h1, h2, h3, h4 {
+    font-size: 4em;
+    text-transform: lowercase;
+    padding: 0;
+    font-weight: normal;
+    margin: 20px 0 20px 0;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+th {
+    font-size: 1.4em;
+    font-weight: normal;
+    padding-right: 10px;
+    text-align: right;
+}
+
+td {
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: left
+}
+
+.big {
+    font-size: 1.2em;
+}
+
+.small {
+    font-size: 0.6em;
+}
+
+tr {
+    height: 45px;
+}
+
+input[type=text] {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+}
+
+input[type=text]:disabled {
+    color: #777;
+    background-color: #F5F5F5;
+}
+
+input[type=submit], input[type=button], button {
+    border: 1px solid black;
+    background-color: #555;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    margin: 6px 0 0 0;
+    width: 134px;
+    font-size: 1em;
+}
+
+input[type=submit]:hover, input[type=button]:hover, button:hover {
+    background-color: #444;
+}
+
+input[type=submit]:disabled, input[type=submit]:disabled, input[type=button]:disabled, button:disabled {
+    color: #F5F5F5;
+    border-color: #777;
+    background-color: #AAA;
+}
+
+#token {
+    width: 122px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#token_text {
+    display: none;
+    vertical-align: middle;
+}
+
+#download_notify {
+    color: #777;
+}
+
+#download_notify a {
+    color: black;
+}
+
+label:after {
+    content: ':';
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: dotted 1px black;
+}
+
+footer {
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-align: left;
+    font-size: 1em;
+}
+
+footer div {
+    text-transform: lowercase;
+    float: left;
+    margin: 20px;
+    padding: 0;
+}
